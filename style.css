@@ -10,10 +10,39 @@ html {
   box-sizing: inherit;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  padding: 20px 180px;
+}
+
+.header-main {
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+  gap: 20px;
+}
+
+.header-btn {
+  width: 240px;
+  height: 70px;
+  margin-top: 50px;
+  padding: 21px 42px;
+  border-radius: 10px;
+}
+
 /* Navbar styles */
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
 ul li {
   display: inline;
   list-style-type: none;
+  margin-right: 60px;
 }
 
 a {
