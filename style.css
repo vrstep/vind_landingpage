@@ -62,7 +62,7 @@ h1 {
 main {
   display: flex;
   flex-direction: column;
-  background-color: #e5e5e5;
+  background-color: #ebf2f5;
 }
 
 .search-section {
@@ -77,8 +77,34 @@ main {
   background-size: cover;
 }
 
-form {
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  color: #39667a;
+  text-align: center;
+}
+
+.para-search {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #39667a;
+  text-align: center;
+}
+
+form input {
   margin-top: 35px;
+  width: 400px;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px rgba(61, 105, 111, 0.1);
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #a7c1cc;
 }
 
 /* Navbar styles */
