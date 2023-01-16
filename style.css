@@ -9,3 +9,13 @@ html {
   margin: 0;
   box-sizing: inherit;
 }
+
+/* Navbar styles */
+ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
